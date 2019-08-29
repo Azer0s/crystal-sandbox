@@ -1,9 +1,9 @@
 abstract class Animal
-	property age : Int8
-	getter name : String
+  property age : Int8
+  getter name : String
 
-	def initialize(@name : String, @age : Int8)
- 	end
+  def initialize(@name : String, @age : Int8)
+  end
 
   abstract def do_talk
 

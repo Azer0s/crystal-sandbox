@@ -6,7 +6,6 @@ executeBlock do |x|
   puts "Hello from inside #{x}"
 end
 
-
 def count(i)
   c = 0
   while c < i
